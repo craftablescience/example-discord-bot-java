@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.craftablescience.amytherstpingutility
+web: java -jar build/libs/Amytherst-Ping-Utility-1.0.jar
