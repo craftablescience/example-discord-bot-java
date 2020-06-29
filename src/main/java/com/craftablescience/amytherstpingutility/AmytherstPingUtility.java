@@ -7,6 +7,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import javax.security.auth.login.LoginException;
 import java.util.ArrayList;
 
+
 public class AmytherstPingUtility {
 
     public static void main(String[] args) throws LoginException {
