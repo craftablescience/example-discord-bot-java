@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.craftablescience.amytherstpingutility'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:4.1.1_167'
+    compile group: 'com.esotericsoftware.yamlbeans', name: 'yamlbeans', version: '1.06'
+    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+
+}
