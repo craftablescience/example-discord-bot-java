@@ -21,7 +21,7 @@ public class ConfigReader {
         Hashtable<String, String> cfgDict = this.readConfigFile();
 
         assert cfgDict != null;
-        this.token = cfgDict.get("token");
+        this.token = System.getenv("TOKEN");
         this.prefix = cfgDict.get("prefix");
         this.pingCommand = cfgDict.get("pingCommand");
         this.helpCommand = cfgDict.get("helpCommand");
@@ -37,7 +37,7 @@ public class ConfigReader {
             @SuppressWarnings("unchecked")
             Map<String, String> map = (Map<String, String>) reader.read();
 
-            output.put("token", map.get("Token"));
+            //output.put("token", map.get("Token"));
             output.put("prefix", map.get("Command Prefix"));
             output.put("pingCommand", map.get("Ping"));
             output.put("helpCommand", map.get("Help"));

@@ -1,5 +1,3 @@
-config.yml
-
 # Project exclude paths
 /.gradle/
 /build/
