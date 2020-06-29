@@ -1,1 +1,1 @@
-worker: java -jar build/libs/Amytherst-Ping-Utility-1.0.jar
+worker: java -jar target/Amytherst-Ping-Utility-1.0.jar
